@@ -1,0 +1,481 @@
+fund,universe,method,latest_rebalance_date,ticker,weight
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,ABBV,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,ABT,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,ADA-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,ADBE,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,AEP,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,AMD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,AMGN,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,AMT,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,BA,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,BCH-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,BTC-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,CAT,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,CCI,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,CMCSA,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,COP,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,CVX,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,D,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,DD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,DIS,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,DOW,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,DUK,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,EA,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,EOS-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,ETC-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,ETH-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,GE,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,GILD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,GS,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,INTC,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,KO,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,LTC-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,MMM,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,MRK,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,MS,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,NEE,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,NEM,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,NKE,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,NUE,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,NVDA,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,O,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,OXY,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,PLD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,PSA,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,QCOM,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,SBUX,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,SHW,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,SLB,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,SO,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,T,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,TMUS,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,TRX-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,TTWO,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,UPS,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,USB,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,V,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,WFC,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,WMT,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,XLM-USD,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,XOM,0.016666666666666666
+Combined Equal Weight,Combined,Equal Weight,2023-12-01,XRP-USD,0.016666666666666666
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,WMT,0.04760573897038455
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,GILD,0.046053348808525296
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,MRK,0.044467601300275356
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,NEM,0.04397732491138422
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,EA,0.042138452262450776
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,ABBV,0.04185235816023002
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,AMGN,0.03799610677500697
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,KO,0.035514985278259824
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,AEP,0.03528763947122575
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,TTWO,0.03522769071206292
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,PSA,0.03436505960892909
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,T,0.03225328713257805
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,ABT,0.03051596738816533
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,DUK,0.030216560077419727
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,TMUS,0.03005933068546009
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,D,0.029111873250647843
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,UPS,0.028424677617394083
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,MMM,0.027626928751519852
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,SO,0.02630983994951942
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,CMCSA,0.02440473073766308
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,NEE,0.02383105779695351
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,CCI,0.02351079244354229
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,SHW,0.023039868032191376
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,AMT,0.0205590254946688
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,O,0.018635356924391423
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,V,0.0171889011323559
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,CAT,0.017069184582322063
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,XOM,0.016546470276589852
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,NKE,0.01647196833736593
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,SBUX,0.014176219765587559
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,DIS,0.013789024744369294
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,PLD,0.013787768445878014
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,ADBE,0.013017811347566128
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,CVX,0.009104139443695095
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,INTC,0.009094611580378477
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,DD,0.00862331735602219
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,GS,0.008001972130445172
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,GE,0.006378300919541785
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,QCOM,0.006318374080869619
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,NUE,0.004710419934991609
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,USB,0.0039909543842456124
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,DOW,0.003805617778901948
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,BCH-USD,0.0021776504913827606
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,WFC,0.0014591796325728883
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,NVDA,0.0007311440671713853
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,BTC-USD,0.0003417357820402868
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,XRP-USD,0.00011636126625027819
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,MS,9.549318273743878e-05
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,TRX-USD,1.7776795869042606e-05
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,XLM-USD,8.7638306181293e-20
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,ADA-USD,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,AMD,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,BA,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,COP,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,EOS-USD,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,ETC-USD,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,ETH-USD,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,LTC-USD,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,OXY,0.0
+Combined Minimum Variance,Combined,Minimum Variance,2023-12-01,SLB,0.0
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,WMT,0.03169331634491186
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,GILD,0.03096939990475007
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,MRK,0.029837111990191102
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,NEM,0.02890677711045869
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,ABBV,0.02798395178420844
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,EA,0.02767793344689921
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,AMGN,0.025159809021654524
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,KO,0.02386209420348526
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,AEP,0.02359197611109103
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,PSA,0.02307684244698456
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,TTWO,0.02286605134165433
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,T,0.02197283414458074
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,DUK,0.02091168304875299
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,ABT,0.020859558603082997
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,D,0.02054579686504799
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,TMUS,0.020347588604749476
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,UPS,0.020179948769681773
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,MMM,0.01984944064326099
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,SO,0.019345025151510483
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,CMCSA,0.018422960965644053
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,CCI,0.018365349146325666
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,NEE,0.018283402231963952
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,SHW,0.018120342877798987
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,AMT,0.01738461405716831
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,O,0.017050597939360895
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,V,0.016383120269579082
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,CAT,0.01637489139996782
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,XOM,0.016305958712488425
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,NKE,0.01613179671316321
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,PLD,0.015579281496598105
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,SBUX,0.015535941332341494
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,DIS,0.015380157322346386
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,ADBE,0.0149953105445695
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,CVX,0.014486395787456623
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,DD,0.014253992880742628
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,INTC,0.014188093755170864
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,GS,0.01413350594223114
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,GE,0.013856250144937457
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,QCOM,0.013574086721419269
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,USB,0.013406474201236243
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,NUE,0.013378083623493745
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,DOW,0.013280056196820648
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,WFC,0.012947653264717002
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,COP,0.012743141779875641
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,MS,0.012663876333289194
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,SLB,0.012300887532076886
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,AMD,0.01229725578722768
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,NVDA,0.01132004340829335
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,BTC-USD,0.010956768210616686
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,BA,0.010769146184198558
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,OXY,0.010439401826800422
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,TRX-USD,0.010048329596938025
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,ETH-USD,0.008472520612640403
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,XRP-USD,0.008432545262766577
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,LTC-USD,0.008431089492792487
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,BCH-USD,0.008211872616556882
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,EOS-USD,0.008046117539335635
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,XLM-USD,0.007997382729366148
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,ADA-USD,0.007738838071439129
+Combined Risk Parity,Combined,Risk Parity,2023-12-01,ETC-USD,0.007675325951288298
+Combined Tangency,Combined,Tangency,2023-12-01,NVDA,0.3224312474904885
+Combined Tangency,Combined,Tangency,2023-12-01,ABBV,0.31941097141894453
+Combined Tangency,Combined,Tangency,2023-12-01,NUE,0.18401647223831402
+Combined Tangency,Combined,Tangency,2023-12-01,BTC-USD,0.070244291236934
+Combined Tangency,Combined,Tangency,2023-12-01,TRX-USD,0.06656864033501551
+Combined Tangency,Combined,Tangency,2023-12-01,ETC-USD,0.016690855409277405
+Combined Tangency,Combined,Tangency,2023-12-01,XRP-USD,0.01564744791155395
+Combined Tangency,Combined,Tangency,2023-12-01,ETH-USD,0.004990073959471825
+Combined Tangency,Combined,Tangency,2023-12-01,GILD,8.445934923662073e-17
+Combined Tangency,Combined,Tangency,2023-12-01,TMUS,8.001374028512582e-17
+Combined Tangency,Combined,Tangency,2023-12-01,EA,5.4139898511783885e-17
+Combined Tangency,Combined,Tangency,2023-12-01,AMD,3.241689154650011e-17
+Combined Tangency,Combined,Tangency,2023-12-01,AEP,2.154172966846388e-17
+Combined Tangency,Combined,Tangency,2023-12-01,CMCSA,1.8710204394031032e-17
+Combined Tangency,Combined,Tangency,2023-12-01,DUK,1.680173329562882e-17
+Combined Tangency,Combined,Tangency,2023-12-01,OXY,9.720537856582875e-18
+Combined Tangency,Combined,Tangency,2023-12-01,UPS,9.637634495990227e-18
+Combined Tangency,Combined,Tangency,2023-12-01,DOW,7.625457579826108e-18
+Combined Tangency,Combined,Tangency,2023-12-01,SBUX,6.73728781635323e-18
+Combined Tangency,Combined,Tangency,2023-12-01,DIS,6.593292215319999e-18
+Combined Tangency,Combined,Tangency,2023-12-01,WMT,5.524815870635444e-18
+Combined Tangency,Combined,Tangency,2023-12-01,ABT,5.34571855225269e-18
+Combined Tangency,Combined,Tangency,2023-12-01,TTWO,4.928978342203575e-18
+Combined Tangency,Combined,Tangency,2023-12-01,XOM,2.5766619794401097e-18
+Combined Tangency,Combined,Tangency,2023-12-01,NKE,2.481794289347628e-18
+Combined Tangency,Combined,Tangency,2023-12-01,INTC,1.2130448025989615e-18
+Combined Tangency,Combined,Tangency,2023-12-01,V,1.1553406939473945e-18
+Combined Tangency,Combined,Tangency,2023-12-01,ADA-USD,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,ADBE,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,AMGN,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,AMT,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,BA,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,BCH-USD,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,CAT,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,CCI,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,COP,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,CVX,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,D,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,DD,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,EOS-USD,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,GE,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,GS,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,KO,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,LTC-USD,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,MMM,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,MRK,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,MS,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,NEE,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,NEM,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,O,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,PLD,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,PSA,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,QCOM,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,SHW,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,SLB,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,SO,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,T,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,USB,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,WFC,0.0
+Combined Tangency,Combined,Tangency,2023-12-01,XLM-USD,0.0
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,ADA-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,BCH-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,BTC-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,EOS-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,ETC-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,ETH-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,LTC-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,TRX-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,XLM-USD,0.1
+Crypto Equal Weight,Crypto,Equal Weight,2023-12-01,XRP-USD,0.1
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,BTC-USD,0.6263695227814549
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,TRX-USD,0.2465120672461239
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,ETH-USD,0.12711840997242124
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,EOS-USD,9.122720631817688e-18
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,ETC-USD,7.046980557619224e-18
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,XLM-USD,4.338805185712004e-18
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,XRP-USD,4.000484197900691e-18
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,ADA-USD,0.0
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,BCH-USD,0.0
+Crypto Minimum Variance,Crypto,Minimum Variance,2023-12-01,LTC-USD,0.0
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,BTC-USD,0.14393713866419117
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,TRX-USD,0.11212233431514142
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,ETH-USD,0.1046007283216434
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,LTC-USD,0.09707715309541794
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,ADA-USD,0.09593407806007535
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,XLM-USD,0.09168042058564281
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,BCH-USD,0.09122928398052693
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,XRP-USD,0.09091645584524329
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,EOS-USD,0.08637906791906441
+Crypto Risk Parity,Crypto,Risk Parity,2023-12-01,ETC-USD,0.08612333921305335
+Crypto Tangency,Crypto,Tangency,2023-12-01,ETH-USD,0.5786832897093268
+Crypto Tangency,Crypto,Tangency,2023-12-01,ADA-USD,0.22176160268607992
+Crypto Tangency,Crypto,Tangency,2023-12-01,TRX-USD,0.199555107604593
+Crypto Tangency,Crypto,Tangency,2023-12-01,EOS-USD,1.6291594256623768e-16
+Crypto Tangency,Crypto,Tangency,2023-12-01,LTC-USD,1.1200202820325293e-16
+Crypto Tangency,Crypto,Tangency,2023-12-01,BCH-USD,8.820179922430033e-17
+Crypto Tangency,Crypto,Tangency,2023-12-01,XLM-USD,1.7170161582374154e-17
+Crypto Tangency,Crypto,Tangency,2023-12-01,BTC-USD,0.0
+Crypto Tangency,Crypto,Tangency,2023-12-01,ETC-USD,0.0
+Crypto Tangency,Crypto,Tangency,2023-12-01,XRP-USD,0.0
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,ABBV,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,ABT,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,ADBE,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,AEP,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,AMD,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,AMGN,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,AMT,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,BA,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,CAT,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,CCI,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,CMCSA,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,COP,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,CVX,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,D,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,DD,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,DIS,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,DOW,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,DUK,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,EA,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,GE,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,GILD,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,GS,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,INTC,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,KO,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,MMM,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,MRK,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,MS,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,NEE,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,NEM,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,NKE,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,NUE,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,NVDA,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,O,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,OXY,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,PLD,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,PSA,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,QCOM,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,SBUX,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,SHW,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,SLB,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,SO,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,T,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,TMUS,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,TTWO,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,UPS,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,USB,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,V,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,WFC,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,WMT,0.02
+Equity Equal Weight,Equity,Equal Weight,2023-12-01,XOM,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,ABBV,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,ABT,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,ADBE,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,AEP,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,AMD,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,AMGN,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,AMT,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,BA,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,CAT,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,CCI,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,CMCSA,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,COP,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,CVX,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,D,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,DD,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,DIS,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,DOW,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,DUK,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,EA,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,GE,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,GILD,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,GS,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,INTC,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,KO,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,MMM,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,MRK,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,MS,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,NEE,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,NEM,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,NKE,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,NUE,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,NVDA,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,O,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,OXY,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,PLD,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,PSA,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,QCOM,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,SBUX,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,SHW,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,SLB,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,SO,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,T,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,TMUS,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,TTWO,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,UPS,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,USB,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,V,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,WFC,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,WMT,0.02
+Equity Minimum Variance,Equity,Minimum Variance,2023-12-01,XOM,0.02
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,WMT,0.03601151931098341
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,GILD,0.0334411166137543
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,NEM,0.03230663342758714
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,MRK,0.032256144512941363
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,EA,0.030778143777040322
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,ABBV,0.029955645430782434
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,AMGN,0.026619585987556153
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,TTWO,0.025988783120266857
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,KO,0.025264406221080934
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,AEP,0.02496999298532778
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,PSA,0.024715965323674375
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,T,0.0234430891754632
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,TMUS,0.023192640715980505
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,ABT,0.022653635027400063
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,DUK,0.022343291151182137
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,UPS,0.02176305258992452
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,MMM,0.021594825890824735
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,D,0.021571709080796673
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,SO,0.02060116401960696
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,CMCSA,0.020508964714304613
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,NEE,0.020095300718315785
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,SHW,0.0197931365044497
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,CCI,0.0196652865364397
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,AMT,0.018789850161612335
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,O,0.01815734587256104
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,CAT,0.017971951181746187
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,V,0.017965403741671944
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,NKE,0.017902962882943345
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,XOM,0.017671701119220923
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,DIS,0.01734159757740134
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,SBUX,0.017169899615010538
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,ADBE,0.01711151619203158
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,PLD,0.016654529345684777
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,INTC,0.015891239310624854
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,DD,0.01571682075871106
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,CVX,0.015621302540882667
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,GS,0.015604190288685177
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,QCOM,0.01541918859716543
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,GE,0.01521782166216216
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,NUE,0.01506979848715118
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,DOW,0.014688821689547424
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,USB,0.014636819017178646
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,AMD,0.014343676325996518
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,WFC,0.014171400689805038
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,MS,0.014009207823059972
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,COP,0.013809061904514095
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,SLB,0.01335058389126038
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,NVDA,0.013119620639221605
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,BA,0.011847998478760056
+Equity Risk Parity,Equity,Risk Parity,2023-12-01,OXY,0.011211657369706144
+Equity Tangency,Equity,Tangency,2023-12-01,NVDA,0.4016302187853759
+Equity Tangency,Equity,Tangency,2023-12-01,ABBV,0.35063423239890157
+Equity Tangency,Equity,Tangency,2023-12-01,NUE,0.24368947738778968
+Equity Tangency,Equity,Tangency,2023-12-01,TMUS,0.003189560106942845
+Equity Tangency,Equity,Tangency,2023-12-01,GILD,0.0008565113209893804
+Equity Tangency,Equity,Tangency,2023-12-01,XOM,7.190707150667234e-17
+Equity Tangency,Equity,Tangency,2023-12-01,USB,4.8574491227408045e-17
+Equity Tangency,Equity,Tangency,2023-12-01,DIS,4.3753971927828143e-17
+Equity Tangency,Equity,Tangency,2023-12-01,PSA,4.1646041520052714e-17
+Equity Tangency,Equity,Tangency,2023-12-01,SBUX,3.7466971316856096e-17
+Equity Tangency,Equity,Tangency,2023-12-01,WFC,3.359117560588014e-17
+Equity Tangency,Equity,Tangency,2023-12-01,DOW,3.282440471292928e-17
+Equity Tangency,Equity,Tangency,2023-12-01,CCI,3.2455827419187943e-17
+Equity Tangency,Equity,Tangency,2023-12-01,O,2.902460020724713e-17
+Equity Tangency,Equity,Tangency,2023-12-01,QCOM,2.2824511981545648e-17
+Equity Tangency,Equity,Tangency,2023-12-01,CMCSA,2.210874382946159e-17
+Equity Tangency,Equity,Tangency,2023-12-01,COP,2.008712597467716e-17
+Equity Tangency,Equity,Tangency,2023-12-01,AMD,1.7869696663057915e-17
+Equity Tangency,Equity,Tangency,2023-12-01,D,1.6634572603584076e-17
+Equity Tangency,Equity,Tangency,2023-12-01,TTWO,9.982462958394311e-18
+Equity Tangency,Equity,Tangency,2023-12-01,NEM,8.219540567781854e-18
+Equity Tangency,Equity,Tangency,2023-12-01,CAT,8.060669037891788e-18
+Equity Tangency,Equity,Tangency,2023-12-01,AEP,4.833234663504987e-18
+Equity Tangency,Equity,Tangency,2023-12-01,OXY,2.754168605000437e-18
+Equity Tangency,Equity,Tangency,2023-12-01,T,2.1705772116183827e-18
+Equity Tangency,Equity,Tangency,2023-12-01,KO,1.8919647870779104e-18
+Equity Tangency,Equity,Tangency,2023-12-01,ABT,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,ADBE,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,AMGN,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,AMT,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,BA,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,CVX,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,DD,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,DUK,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,EA,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,GE,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,GS,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,INTC,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,MMM,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,MRK,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,MS,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,NEE,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,NKE,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,PLD,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,SHW,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,SLB,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,SO,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,UPS,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,V,0.0
+Equity Tangency,Equity,Tangency,2023-12-01,WMT,0.0
