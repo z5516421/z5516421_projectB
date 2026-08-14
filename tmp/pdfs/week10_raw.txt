@@ -1,447 +1,0 @@
-Week 10 Agentic Coding and Revision
-FINS3645: Financial Market Data Design & AnalysisWhat have we learned?
-Agentic coding + turning raw data into insights ...
-Take raw data, both structured numbers like prices and unstructured text like news headlines.
-Clean the data  then use it for modelling  e.g., optimisation, sentiment, etc.
-Build it with agentic coding tools, where you direct an AI agent as opposed to manually writing code
-yourself.
-Turn raw data into something useful. Build a narrative / create a useful application.
-1The course project tests these skills ...
-For the assessment, this idea became a portfolio management app.
-The raw data was daily prices for 50 stocks and 10 cryptos, plus 149,683 news headlines.
-The useful product was a set of investable funds, each with a fact sheet, that a user can compare
-and allocate money across.
-Anyone can open it in a web browser, with no nance background needed.
-I encourage you to use your new skillset from this course and apply it to your own ideas / other
-courses at UNSW.
-The project turned raw price data and news headlines into a product that oers
-investable funds to anyone through an app.
-2Today's (Final) Lecture
-We use the project and revise the course (structured and unstructured data), and we focus on Part B,
-which is due on Friday of Week 11  ignore any other date, this is the correct hand-in date.
-Structured part of the course, the out-of-sample optimal portfolios from Week 5, across stocks,
-crypto, and the two combined.
-Unstructured part, the news sentiment index and the fear and greed index from Weeks 8 and 9.
-We fold sentiment into the funds and ask whether it helps performance.
-We turn the results into a deployed app, Overt Capital (my silly name for my app)
-Every result today comes from the project reference code, so it is exactly what your own
-Part B can produce  you have most of the code to achieve similar results from this
-revision lecture.
-3How Part B Is Marked
-Part B is worth 50 percent of the course. Within Part B, the marks split across six bands, taken from the
-project rubric.
-Band Share of Part B
-Funds  optimal portfolios and OOS backtest (Station 3) 15%
-Sentiment index and fusion extension (Station 3) 10%
-Innovation and data-driven results 30%
-Streamlit app and implementation (Station 4) 15%
-Economic interpretation, reection and writing 10%
-AI workow and transparency 20%
-Total 100%
-Innovation is the largest band at 30 percent and the AI workow another 20 percent, so
-original work and a documented AI process is 50% of the nal mark.
-4The Data Factory Floor
-The project runs the four-stage Data Factory Floor from start to nish.
-Station 1, Data Lake. Load and clean the stock prices, the crypto prices, and the news headlines.
-(Part A)
-Station 2, Feature Engineering. Turn prices into returns and assemble the headlines into a daily text
-panel. (Part A)
-Station 3, Model Design. Build the out-of-sample funds, the sentiment index, and the fusion of the
-two. (Part B)
-Station 4, Implementation. Deploy the funds and the analytics as a Streamlit app. (Part B)
-Part B is Stations 3 and 4, and today covers both, on the same 50 stocks, 10 cryptos,
-and 149,683 headlines your data ZIP contains.
-5The Product You Can Build
-The app you build is an investment product  a user opens it, compares your funds, reads a fact sheet, and
-allocates money across them. The business (yours) earns a management fee (typically a small percentage).
-A fund is an asset universe combined with an optimisation method, for example Combined Risk
-Parity.
-A fact sheet reports growth of one dollar, return, volatility, the Sharpe ratio, the drawdown, and the
-current holdings.
-Every number a user observes is measured out of sample, so the weights that produced it were set on
-earlier data only.
-Your app gives the user an opportunity to invest in your funds  you make money from the
-management fee.
-Why are we doing this? Very few equity-crypto combined funds exist  we ll that gap in the market.
-Overt Capital is our worked example of that product. Your own app is the same idea
-under your own name.
-6The Pieces of Part B
-A complete Part B brings together your nal report hand-in, and a deployed app. The lists below are a
-guide to what ts together.
-Exhibits worth building
-1. A performance-metrics table across funds
-2. Growth of one dollar
-3. A drawdown gure
-4. Portfolio weights over time
-5. A Sharpe or risk-return barplot
-6. A sector sentiment index over time
-Result les the app (could) read in
-fund_returns.csv
-fund_weights.csv
-sector_sentiment_index.csv
-performance_metrics.csv
-7Part 1
-Structured Data
-Optimal Portfolios Out of SampleStage 3, Building Optimal Portfolios
-A portfolio is a set of weights across assets. An optimal portfolio sets those weights to trade o return
-against risk, following Markowitz (1952). In this example, we build four funds from the same set of
-returns.
-Equal-weight puts one over N weight in every asset and uses no return or covariance data  easiest
-model
-Minimum-variance sets the weights that give the lowest portfolio volatility (in-sample).
-Maximum-Sharpe, or tangency portfolios, sets the weights with the best return per unit of risk
-(Sharpe1966)  again, in-sample.
-Risk parity gives every asset the same share of total risk (Maillard et al.2010), where risk is dened
-as volatility.
-Each method is a `simple' optimisation that turns average returns and a covariance
-matrix (how the assets move together) into weights. The hard part is that both inputs
-are estimated with error.
-8Optimisation functions
-Each fund computes its weights w from the same two inputs, the average returns µ and the covariance
-matrix Σ. All are fully invested and long-only, so 1
-⊤
-w = 1 and w ≥ 0. You do not have to use long-only
-funds  you can use long-short if you want.
-Equal-weight (1/N)  no optimisation at all, just wi = 1/N.
-Minimum-variance  the smallest portfolio variance, minw w
-⊤
-Σw.
-Maximum-Sharpe (tangency)  the best return per unit of risk, maxw
-w
-⊤
-(µ − rf 1)
-√
-w⊤Σw
-.
-Risk parity  every asset's risk contribution is equal, solve for w so that RCi =
-wi(Σw)i
-w⊤Σw
-=
-1
-N
-.
-9Testing a Fund Out of Sample
-We care about out-of-sample returns, i.e., those actually earnable by your investors ... The equity
-tangency fund shows how large the divergence between in-sample (IS) and out-of-sample (OS) results is,
-In-sample the tangency fund delivers a Sharpe of 2.82. The same fund, traded out of
-sample, delivers 0.72. The in-sample number cannot be traded  it contains `look-ahead
-bias'.
-10The Walk-Forward Backtest (out-of-sample backtest)
-We evaluate every fund with a walk-forward backtest, which uses only data from before each decision 
-i.e., mimics how a fund would have traded in `real-time', e.g., with monthly data.
-Estimate the inputs on the rst year of returns, then set/estimate the weights.
-Earn the next month return at those weights, then re-estimate and rebalance.
-Repeat to the end of the sample.
-Here the rst live date is January 2021, the window expands each month, and there are 36 monthly
-rebalances through the end of 2023. We assume a risk-free rate of zero and annualise stocks and
-combined on 252 days and crypto on 365.
-11Re-Training on an Expanding Window
-Each month the training window grows to include all data up to that point, an expanding window. We set
-the weights on that window, earn the next month, then roll forward and repeat.
-train to month m, earn month m+1
-re-train, earn the next month
-and again, every month
-the blue training window grows and the red earned month slides forward
-Stitching these earned months together gives a continuous out-of-sample track record. On this data that is
-36 monthly re-trainings.
-12Equity, Crypto and Combined Data
-We run the same four methods on three investment universes.
-Equity is the 50 stocks across 10 sectors.
-Crypto is the 10 cryptocurrencies.
-Combined joins the crypto returns onto the stock trading calendar, so a fund that trades on
-stock-market days could actually hold both.
-13Growth of One Dollar, Equity
-Each line is a fund, plotted as what one dollar grows to, so a line ending higher earned more and a dip
-along the way is a loss.
-Equal-weight and risk parity fall less in the 2022 drawdown than the concentrated
-tangency fund.
-14Growth of One Dollar, Crypto
-15Growth of One Dollar, Combined
-16The Funds Ranked by Sharpe
-Over 2021 to 2023 crypto had the best risk-adjusted return, so the crypto funds rank highest and the
-combined funds rank below crypto alone.
-Diversication is regime-dependent. Over this window crypto performed unusually well,
-and mixing it with stocks lowered its Sharpe.
-17Combined Risk and Return
-Each dot is a fund, placed by its volatility, or risk, on the horizontal axis and its annual return on the
-vertical axis, so dots further right are riskier and dots higher up returned more.
-The crypto funds have high return and high volatility, and the stock funds cluster at low
-risk. A user could pick a point on this map by their appetite for risk.
-18Drawdown
-A drawdown is how far a fund has fallen below its highest earlier value. The maximum drawdown is the
-worst such fall over the whole period.
-The maximum drawdown of the combined tangency fund reaches 52 percent.
-Minimum-variance holds its worst loss near 18 percent. A fact sheet must show the
-drawdown as well as the growth line.
-19Portfolio Weights Over Time
-Each band is a sector's share of the fund, with crypto shown as a single black band, and the bands stack
-to 100 percent on every date, so a widening band means the fund holds more of that sector.
-Minimum-variance concentrates in defensive sectors, mainly healthcare (about 34
-percent) and consumer (about 25 percent), and holds almost no crypto, because
-minimising variance avoids the most volatile assets. The weights move each month as
-the covariance matrix is re-estimated.
-20Largest and Smallest Holdings
-Risk parity holds every asset, but its largest weights are stable low-volatility stocks and
-its smallest are the volatile cryptos. The method gives each asset an equal share of total
-risk, so the safest assets get the largest dollar weights.
-21Fund performance
-Out-of-sample Sharpe ratio, which is annual return divided by volatility so higher is better, for all 12 funds.
-Return, volatility, and drawdown are shown in the app.
-Method Equity Crypto Combined
-Equal-Weight 0.85 0.99 0.76
-Minimum-Variance 0.62 1.17 0.61
-Maximum-Sharpe (Tangency) 0.72 0.73 0.40
-Risk Parity 0.75 1.02 0.78
-Equal-weight is hard to improve on among the stock funds, which matches DeMiguel et al. (2009), who
-nd that no clever rule reliably improves on one over N out of sample.
-The best combined fund is risk parity at 0.78. A method that loses to equal-weight,
-explained clearly, is still good project work.
-22Ideas, Structured
-The 12 funds are a potential baseline  going beyond them is where the innovation marks are earned.
-Add a tail-aware objective such as mean-CVaR, which targets the worst outcomes in the tail of the
-returns.
-Reduce estimation error with covariance shrinkage.
-Add volatility targeting, which scales exposure up and down with recent risk (Moreira and Muir2017).
-Blend equal-weight with minimum-variance.
-Add a turnover or transaction-cost model.
-Dozens of other potential ideas ...
-Pick one or more extensions, motivate them, and show their out-of-sample eect. A
-careful extension is worth more than several shallow ones.
-23Part 2
-Unstructured Data
-Sentiment From the News HeadlinesNews headlines
-Sentiment can move prices  the unstructured part of the course focused on textual data. Tetlock (2007)
-links pessimistic news to lower prices, and Baker and Wurgler (2007) show investor sentiment is an
-important risk factor.
-Your data has 149,683 dated headlines for the 50 stocks over 2020 to 2023.
-Station 2 assembled them into a daily text panel, one row per stock per day.
-Station 3 uses VADER or your own VADER model to produce sentiment scores.
-The news is headlines only, which is a noisy proxy for the full article. Say so in your
-report, and treat a compound score of zero as potentially missing information.
-24VADER, the Project Baseline
-VADER is a rule-based sentiment model from Hutto and Gilbert (2014). It scores a sentence and returns a
-compound score between minus one and plus one, where minus one is the most negative, zero is neutral,
-and plus one is the most positive.
-It scores words from a dictionary/lexicon and adjusts for capitals, punctuation, boosters, and
-negation (VADER rules).
-You do not clean the text rst, because lower-casing and stripping punctuation remove the data
-VADER uses.
-nVADER adds nance word lists, so it captures market language that plain VADER does not.
-I strongly encourage you to use your AI systems and build your own lexicon or your own VADER
-model.
-25From Headlines to a Sector Index
-We build the sector sentiment index in three steps.
-Score every headline, then average the scores for each stock on each day.
-Average the stock scores within each sector, giving every stock equal weight. Can you think of other
-weightings that are not 1/N?
-Lag the signal by at least one trading day, so a Monday headline is rst usable on Tuesday.
-The lag is what keeps the index look-ahead safe. A day-t decision uses only sentiment from day t minus
-one or earlier.
-Equal-weight the stocks, decide how to treat days with no news, and lag the signal.
-Those three choices are important, so state them in your report.
-26Sector Sentiment Over Time
-Every sector's sentiment is above zero most of the time, and all of them fall together at
-the COVID crash in early 2020. News sentiment has a positive baseline.
-27Sectors Ranked by Sentiment
-Utilities and real estate news is the most positive over 2020 to 2023, nancials the least.
-28A Fear and Greed Index
-Average the sentiment across all 50 stocks, rescale it onto 0 to 100, and standardise it (subtract the mean
-and divide by the standard deviation).
-The raw level is above neutral on 98 percent of days, so it always reads as greedy.
-Standardising is what reveals the fear spikes, the deepest being the Omicron variant
-announcement (COVID) and the COVID crash itself.
-29Comparing VADER and finVADER
-The same headlines receive dierent scores under two models. The nance lexicon
-scores market news about two points higher on the 0 to 100 index and leaves fewer
-headlines as neutral. Try to develop your OWN custom VADER model.
-30Some Ideas  Unstructured Data
-The sentiment model is the most open part of the project.
-Extend the VADER lexicon with nance terms, then have your AI agent rate them and keep the ones
-raters (AI agents) agree on.
-Swap in TextBlob, which returns polarity and subjectivity, or blend two models into an ensemble.
-Build the index by market, by sector, or by individual stock, and try dierent smoothing windows.
-Use an expanding-window standardisation for a live index, and the full-sample version for history.
-A nance lexicon extension, built and tested, is a strong and expected innovation route.
-Keep a record of how you rated the terms with your AI agents.
-31Part 3
-Fusion
-Sentiment Tilts (Idea) for the FundsIncluding Sentiment Into a Fund  Example with the
-Minimum-Variance Fund
-A sentiment tilt nudges the minimum-variance equity fund toward stocks with better-than-usual news and
-away from stocks with worse news. We keep the fund weights we already have and move them only a
-little, based on the news sentiment.
-We start from the base weights wbase
-i , the minimum-variance equity weights from earlier.
-We use each stock's daily news sentiment score si,t, already built in the sentiment step.
-We shift weight toward the good-news stocks and away from the bad-news stocks, controlled by a
-tilt strength λ.
-A positive λ is momentum, holding more of the good-news stocks. A negative λ is contrarian, holding
-more of the bad-news stocks. At λ = 0 nothing moves, and the fund is exactly the base.
-The baseline stays the minimum-variance equity fund, and we tilt non-parametrically
-toward high-sentiment or low-sentiment stocks.
-32The Sentiment Tilt  Step by Step
-Three steps turn the base weights wbase
-i and the daily sentiment scores si,t into the tilted weights for day
-t.
-1. Standardise each stock's sentiment into a rolling z-score over the past N days, so a value above zero
-means better-than-usual news,
-zi,t =
-si,t − s̄i,t
-σs
-i,t
-.
-2. Tilt each base weight up or down in proportion to that z-score,
-w̃i,t = wbase
-i 1 + λzi,t
-
-.
-3. Clip and renormalise so the fund stays long-only and fully invested,
-wi,t =
-max(w̃i,t, 0)
-P
-j max(w̃j,t, 0)
-.
-Here s̄i,t and σs
-i,t are the rolling mean and standard deviation of the score, and λ is the tilt strength. The
-z-score uses news only up to the day before, so there is no look-ahead bias.
-33A Naive Tilt Does Not Improve Much on the Baseline
-Model
-The base is the minimum-variance equity fund. The momentum tilt uses λ = +1 and the contrarian tilt
-uses λ = −1, both set by hand with no tuning, out of sample and before costs.
-Base Sharpe 0.62, momentum 0.58, contrarian 0.58. A hand-set tilt in either direction
-scores below the base. A clear negative result, explained, still earns you marks.
-34Trading Costs
-A tilt trades more than the base, so trading costs cut into it faster. By 50 basis points
-per trade any gain the tilt might have had is gone.
-35Tuning on the Past Can Overfit the Future
-To tune, we try many sentiment choices  the model, the direction, and the strength λ  and keep
-whichever does best on 20212022 data, the discovery window (grey bars). We then test that choice
-out-of-sample using 2023 data (red bars).
-The aggressive tilt (nVADER contrarian, λ = −2) topped tuning at 0.84 then fell to
-0.08 on 2023  a strong tilt can t the past by luck and then fail on new data.
-36A Small Sentiment Edge Out of Sample
-A milder TextBlob momentum tilt, chosen on the tuning years, lifts the 2023 holdout
-Sharpe from 0.53 to 0.55 before costs. The edge is small and fragile  it holds only
-before costs and only with a mild tilt.
-37Part 4
-Stage 4
-Building and Deploying the AppStage 4, From Results to a Product
-The backtests and the sentiment index / tilts provide the results for the report write-up. Station 4 serves
-them to a user as a Streamlit app.
-The app loads the precomputed les and shows the fact sheets. It runs no backtest and loads no
-sentiment model.
-That keeps it light enough for the free tier, which has about one core.
-The folder is its own GitHub repository, and the entry point is streamlit_app.py at the folder root.
-Precompute the slow work, save it, and have the app only load it. An app that
-recomputes on every click can time out on the free tier.
-38Overfit Capital, the App
-This is a fund's fact sheet inside the app. The same four numbers, growth line,
-drawdown, and holdings a fund provider would publish.
-39What a User Can Do
-A good app lets a user do four things without help.
-Compare funds. A metrics table and a Sharpe chart across all 12 funds.
-Read a fact sheet. Growth, drawdown, and the current holdings for a chosen fund.
-Read the sentiment analytics. The fear and greed gauge, the sector index, and the sentiment tilt
-results.
-Build an allocation. Sliders to blend funds, a fee, and the net growth of the blend.
-40The Agentic Coding Example
-The analysis is built. The deploy follows a set protocol, so you hand it to your AI agent with a prompt like
-this one.
-Part B analysis is done - funds, sentiment index, fusion, and
-all results/ CSVs and figures are built. Now follow the
-fins-agent Part B protocol to build Station 4. First read
-AGENTS.md and docs/STUDENT_DEPLOY.md in this folder.
-- Build streamlit_app.py at the folder root that LOADS the
-precomputed results/ only (no backtest , no nltk at runtime).
-- Load raw data via src/data_access.py, never commit it.
-- Run scripts/check_handin.py and fix every failure.
-- git init, commit the code and results/, push a NEW public repo.
-The browser deploy on Streamlit is my step - it needs my login.
-The agent follows the protocol les in your folder. Read what it writes, test it, and x
-its mistakes  that reading and xing is the graded skill.
-41Who Does What
-Deploying splits cleanly between your agent and you.
-Your agent builds the app, runs check_handin.py, commits your code and the results les, and
-pushes to a new public repository.
-You open share.streamlit.io, sign in, and connect the repository. That step needs your own login, so
-the agent cannot do it.
-The agent prepares everything up to the browser step, and you click deploy  neither
-half of the hand-o works without the other.
-42Deploy, Step by Step
-1. Commit your code and the precomputed results/ les. The app loads them, so they must be in the
-repository.
-2. Run streamlit run streamlit_app.py and conrm it works on your machine.
-3. Run check_handin.py and x every failure it reports.
-4. Push the folder to a new, public GitHub repository.
-5. On share.streamlit.io, connect the repository with entry point streamlit_app.py.
-6. At hand-in, conrm the live link opens in a logged-out browser.
-The most common lost mark is a live link a marker cannot open. Re-test the public link
-in a logged-out browser before the deadline.
-43Your Public Repository
-Your Part B folder is a public GitHub repository, so a marker can open the live app, read the code, and run
-it from a clean checkout.
-Commit your code and the precomputed results/ the app reads.
-Load all raw data through the data-access helper, and never commit the raw price or news les.
-Public repository, live link, and the zipped folder are the three things you submit for
-Station 4.
-44Document How You Used AI
-Your AI workow is graded at 20 percent of Part B, so keep records ...
-Replace the starter stubs with the agent les you actually used, and submit them.
-Keep a prompt log that shows the prompt, the AI output, and your own xes / guidance.
-Have you made any skills/rules or agent les?
-Write the analysis and the economic interpretation in your own words.
-A good entry reads like a short story about a problem. You asked for a backtest, the agent added a
-look-ahead bug, you caught it, and you record how.
-AI makes the code easy, so the marks move to judgement. Show where the AI was
-wrong and what you did instead.
-45Finishing Part BIdeas Across the Project
-Innovation is rewarded across the whole project. Any of these, built and evidenced, reaches the top band.
-Funds and data
-A new objective or a new factor
-Shrinkage or volatility targeting
-A transaction-cost model
-Sentiment and app
-A nance lexicon or an ensemble
-A disciplined, tested sentiment tilt
-An original design or a useful feature
-A careful extension that does not improve on the baseline, explained well, still earns you the band. The
-credit is for original, evidenced work, whatever the nal number.
-46Finish the Project, a Checklist
-Build the combined fund plus the equity-only and crypto-only funds across several methods.
-Produce all seven exhibits and save the four named les.
-Build the sector sentiment index, lag it, and test a fusion tilt before and after.
-Deploy the app from a public repository with a live link, reading precomputed results.
-Write the report in your own words, interpret every exhibit, and give three concrete recommendations.
-Submit your agent les and prompt logs.
-Part B is due Friday of Week 11. Everything on this list is something you saw built today.
-47Summary
-Optimal portfolios are only as good as their out-of-sample test, and equal-weight is a strong
-benchmark.
-A news sentiment index turns headlines into a fear and greed gauge across the market and its sectors.
-Sentiment can tilt a fund, but only a disciplined tilt leaves a small edge out of sample and after costs.
-The app serves the funds to a user, and one agent prompt builds and prepares the deploy.
-Overt Capital brings the entire course together as a working product. Your Part B is
-the same structure, built on your own choices and name.
-48Final Thoughts
-It ain't what you don't know that gets you into trouble. It's what you
-know for sure that just ain't so.
-adaptedfromJoshBillings(oftenmisattributedtoMarkTwain)
-If you torture the data long enough, it will confess.
-RonaldH.Coase
-49References I
-Malcolm Baker and Jerey Wurgler. Investor sentiment in the stock market. Journal of Economic Perspectives, 21
-(2):129152, 2007. doi: 10.1257/jep.21.2.129.
-Victor DeMiguel, Lorenzo Garlappi, and Raman Uppal. Optimal versus naive diversication: How inecient is the
-1/N portfolio strategy? Review of Financial Studies, 22(5):19151953, 2009. doi: 10.1093/rfs/hhm075.
-Clayton J. Hutto and Eric Gilbert. VADER: A parsimonious rule-based model for sentiment analysis of social media
-text. Proceedings of the International AAAI Conference on Web and Social Media, 8(1):216225, 2014. doi:
-10.1609/icwsm.v8i1.14550.
-Sébastien Maillard, Thierry Roncalli, and Jérôme Teiletche. The properties of equally weighted risk contribution
-portfolios. The Journal of Portfolio Management, 36(4):6070, 2010. doi: 10.3905/jpm.2010.36.4.060.
-Harry Markowitz. Portfolio selection. The Journal of Finance, 7(1):7791, 1952. doi:
-10.1111/j.1540-6261.1952.tb01525.x.
-Alan Moreira and Tyler Muir. Volatility-managed portfolios. The Journal of Finance, 72(4):16111644, 2017.
-William F. Sharpe. Mutual fund performance. The Journal of Business, 39(1):119138, 1966. Part 2: Supplement
-on Security Prices.
-Paul C. Tetlock. Giving content to investor sentiment: The role of media in the stock market. Journal of Finance,
-62(3):11391168, 2007. doi: 10.1111/j.1540-6261.2007.01232.x.
